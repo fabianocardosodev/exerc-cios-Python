@@ -9,5 +9,6 @@ favorite_languages = {
 
 if 'Alex' not in favorite_languages.keys():
     print('Desculpe seu nome nao está na lista')
+    print('Por favor participe de nossa enquete!')
 
     
