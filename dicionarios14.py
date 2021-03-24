@@ -1,4 +1,4 @@
-favorite_language = {
+favorite_languages = {
     'carlos': ['python', 'ruby'],
     'lucas' : [ 'c'],
     'antony': ['java','go'],
@@ -8,7 +8,8 @@ favorite_language = {
 # sempre que quiser que mais de um valor 
 # seja associado a uma única chave em um dicionário.
 
-for name, languages in favorite_language.items():
-    print('\n' +  name.title() + ' ,sua linguagens favoritas são: ' )
+for name, languages in favorite_languages.items():
+    print('\n' +  name.title() + ' ,suas linguagens favoritas são: ' )
     for language in languages():
         print('\t' + language.title())
+

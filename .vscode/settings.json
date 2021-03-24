@@ -1,3 +1,4 @@
 {
-    "cmake.configureOnOpen": true
+    "cmake.configureOnOpen": true,
+    "python.pythonPath": "C:\\Users\\Jr França\\.conda\\envs\\CursoIntenPython\\python.exe"
 }
