@@ -9,7 +9,11 @@ favorite_languages = {
 # seja associado a uma única chave em um dicionário.
 
 for name, languages in favorite_languages.items():
-    print('\n' +  name.title() + ' ,suas linguagens favoritas são: ' )
-    for language in languages():
-        print('\t' + language.title())
+    if (len(languages)) == 1:
+        print( name.title() + ' , sua linguagem favorita é: '  ) 
+        print(languages)
+        
+    else:   
+        print('\n' +  name.title() + ' ,suas linguagens favoritas são: ' )
+        print(languages)
 
