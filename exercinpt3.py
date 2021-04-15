@@ -4,6 +4,6 @@ number_ten = input("Diga um numero para verificarmos se é multiplo de dez: ")
 number_ten = int(number_ten)
 
 if number_ten % 10 == 0:
-    print("Esse numero é multiplo de dez!")
+    print("Esse número é multiplo de dez!")
 else: 
-    print("Esse numero nao é multiplo de dez!")    
+    print("Esse número nao é multiplo de dez!")    
