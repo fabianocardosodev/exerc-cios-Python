@@ -1,5 +1,4 @@
-#Escreva um laço em que você pergunte a idade aos usuários e, 
-# então, informe-lhes o preço do ingresso do cinema.
+
 
 ingresso = input("Digite qual sua idade: ")
 
